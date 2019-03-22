@@ -1,0 +1,86 @@
+************************************************************************************
+INVOICES Maintenance Record
+
+
+INVOICES program:eimngr.exe
+Program version:5-9 SP1 (build no 17354)
+
+
+Date09.02.2018
+Time14:41:03
+
+
+SQL Server database: "tester"@1PCXX52\SQLEXPRESS
+
+
+Maintenance plan name: testimp
+Maintenance plan type: Master data import
+
+
+Maintenance plan settings: 
+Log file name: C:\Users\mdyrseth\Documents\loh
+Import suppliers: Yes
+Import supplier banks: No
+Import buyers: No
+
+
+----- Importing Suppliers
+
+----- suppliernumber column contains 41615 unique values out of 85891 rows
+
+----- corporategroupid column contains 71 unique values out of 85891 rows
+
+----- name1 column contains 41738 unique values out of 85891 rows
+
+----- name2 column contains 1 unique values out of 85891 rows
+
+----- description column contains 1 unique values out of 85891 rows
+
+----- pobox column contains 1 unique values out of 85891 rows
+
+----- streetsupplement column contains 13724 unique values out of 85891 rows
+
+----- postalcode column contains 16999 unique values out of 85891 rows
+
+----- city column contains 8652 unique values out of 85891 rows
+
+----- countrycoded column contains 171 unique values out of 85891 rows
+
+----- countryname column contains 199 unique values out of 85891 rows
+
+----- telephonenumber column contains 24477 unique values out of 85891 rows
+
+----- faxnumber column contains 10402 unique values out of 85891 rows
+
+----- vatregistrationnumber column contains 22251 unique values out of 85891 rows
+
+----- taxnumber1 column contains 8341 unique values out of 85891 rows
+
+----- taxnumber2 column contains 30 unique values out of 85891 rows
+
+----- paymentterm column contains 94 unique values out of 85891 rows
+
+----- blocked column contains 1 unique values out of 85891 rows
+
+----- location column contains 1 unique values out of 85891 rows
+
+----- state column contains 1 unique values out of 85891 rows
+
+----- customsupplierfield1 column contains 1 unique values out of 85891 rows
+
+----- customsupplierfield2 column contains 1 unique values out of 85891 rows
+
+----- emailaddress column contains 1 unique values out of 85891 rows
+
+----- Validation error: (2,3024)
+reason: minLength constraint failed.
+The attribute: 'CountryCoded' has an invalid value according to its data type.
+Source: <Supplier SupplierNumber="9711" CorporateGroupID="US50" Name1="Goldstein, Jerod" Name2="" CountryCoded="DNK" Street="3407 Maplethorpe Lane" VATRegistrationNumber="" FaxNumber="" StreetSupplement="" CountryName="USD" PaymentMethod="CHECK" Description="" TaxNumber1="" PaymentTerm="ON ARRIVAL" TaxNumber2=""/><Supplier SupplierNumber="9712" CorporateGroupID="US50" Name1="Ginn Hammock Beach Resort" Name2="" CountryCoded="DNK" Street="200 Ocean Crest Drive" VATRegistrationNumber="" FaxNumber="" StreetSupplement="" CountryName="USD" PaymentMethod="CHECK" Description="" TaxNumber1="" PaymentTerm="ON ARRIVAL" TaxNumber2=""/><Supplier SupplierNumber="9713" CorporateGroupID="US50" Name1="Peacock, Angelia" Name2="" CountryCoded="DNK" Street="8400 Indigo Sky Ave" VATRegistrationNumber="" FaxNumber="" StreetSupplement="" CountryName="USD" PaymentMethod="CHECK" Description="301-221-3743" TaxNumber1="" PaymentTerm="ON ARRIVAL" TaxNumber2=""/><Supplier SupplierNumber="9714" CorporateGroupID="US50" Name1="Poyser, Abigail" Name2="" CountryCoded="DNK" Street="323 S. Grant, Apt 17" VATRegistrationNumber="" FaxNumber="" StreetSupplement="" CountryName="USD" PaymentMethod="CHECK" Description="" TaxNumber1="" PaymentTerm="ON ARRIVAL" TaxNumber2=""/><Supplier SupplierNumber="9715" CorporateGroupID="US50" Name1="Best, Virginia" Name2="" CountryCoded="DNK" Street="1908 Hemlock Circle" VATRegistrationNumber="" FaxNumber="" StreetSupplement="" CountryName="USD" PaymentMethod="CHECK" Description="" TaxNumber1="" PaymentTerm="ON ARRIVAL" TaxNumber2=""/><Supplier SupplierNumber="9716" CorporateGroupID="US50" Name1="Campbell, Julia" Name2="" CountryCoded="DNK" Street="2081 Enterprise St" VATRegistrationNumber="" FaxNumber="" StreetSupplement="" CountryName="USD" PaymentMethod="CHECK" Description="" TaxNumber1="" PaymentTerm="ON ARRIVAL" TaxNumber2=""/><Supplier SupplierNumber="9717" CorporateGroupID="US50" Name1="Emola, Jana" Name2="" CountryCoded="DNK" Street="2057 W. Hebron, #1124" VATRegistrationNumber="" FaxNumber="" StreetSupplement="" CountryName="USD" PaymentMethod="CHECK" Description="" TaxNumber1="" PaymentTerm="ON ARRIVAL" TaxNumber2=""/><Supplier SupplierNumber="9718" CorporateGroupID="US50" Name1="Boklage, Erin" Name2="" CountryCoded="DNK" Street="2610 Eastwood Ave, 1k" VATRegistrationNumber="" FaxNumber="" StreetSupplement="" CountryName="USD" PaymentMethod="CHECK" Description="" TaxNumber1="" PaymentTerm="ON ARRIVAL" TaxNumber2=""/><Supplier SupplierNumber="9719" CorporateGroupID="US50" Name1="Cellum, Ilana" Name2="" CountryCoded="DNK" Street="3959 Broadway CHONY 5th fl Cen" VATRegistrationNumber="" FaxNumber="" StreetSupplement="tral" CountryName="" PaymentMethod="" Description="" TaxNumber1="" PaymentTerm="" TaxNumber2=""/><Supplier SupplierNumber="Rm 512 A" CorporateGroupID="USD" Name1="CHECK" Name2="" CountryCoded="" Street="ON ARRIVAL" VATRegistrationNumber="" FaxNumber="" StreetSupplement="" CountryName="" PaymentMethod="" Description="" TaxNumber1="" PaymentTerm="" TaxNumber2=""/><Supplier SupplierNumber="972" CorporateGroupID="CH30" Name1="MTM Metall Technik" Name2="" CountryCoded="DNK" Street="Frauenfelderstrasse 102" VATRegistrationNumber="Z" FaxNumber="395496" StreetSupplement="" CountryName="CHF" PaymentMethod="1" Description="" TaxNumber1="" PaymentTerm="301" TaxNumber2=""/><Supplier SupplierNumber="972" CorporateGroupID="US50" Name1="Dr. C. Christopher Smith" Name2="" CountryCoded="DNK" Street="21 Whitehall Road" VATRegistrationNumber="" FaxNumber="" StreetSupplement="Suite 205, Frisbie Medical Bld" CountryName="USD" PaymentMethod="CHECK" Description="" TaxNumber1="" PaymentTerm="0" TaxNumber2=""/><Supplier SupplierNumber="9720" CorporateGroupID="US50" Name1="Vergara, Gima" Name2="" CountryCoded="DNK" Street="2001 N Clybourn" VATRegistrationNumber="" FaxNumber="" StreetSupplement="" CountryName="USD" PaymentMethod="CHECK" Description="" TaxNumber1="" PaymentTerm="ON ARRIVAL" TaxNumber2=""/><Supplier SupplierNumber="9721" CorporateGroupID="US50" Name1="Trussel, Carol" Name2="" CountryCoded="DNK" Street="788 Westlite Cir" VATRegistrationNumber="" FaxNumber="" StreetSupplement="" CountryName="USD" PaymentMethod="CHECK" Description="" TaxNumber1="" PaymentTerm="ON ARRIVAL" TaxNumber2=""/><Supplier SupplierNumber="9722" CorporateGroupID="US50" Name1="Nilsson, Mark" Name2="" CountryCoded="DNK" Street="1770 Red Cliffs Dr" VATRegistrationNumber="" FaxNumber="" StreetSupplement="Ste 214" CountryName="USD" PaymentMethod="CHECK" Description="" TaxNumber1="" PaymentTerm="ON ARRIVAL" TaxNumber2=""/><Supplier SupplierNumber="9723" CorporateGroupID="US50" Name1="Simoneaux, Sabrinia" Name2="" CountryCoded="DNK" Street="8956 Iron Oak Ave" VATRegistrationNumber="" FaxNumber="" StreetSupplement="" CountryName="USD" PaymentMethod="CHECK" Description="" TaxNumber1="" PaymentTerm="ON ARRIVAL" TaxNumber2=""/><Supplier SupplierNumber="9724" CorporateGroupID="US50" Name1="Petrella, Tina" Name2="" CountryCoded="DNK" Street="3 Commonwealth Ave" VATRegistrationNumber="" FaxNumber="" StreetSupplement="D 12" CountryName="USD" PaymentMethod="CHECK" Description="" TaxNumber1="" PaymentTerm="ON ARRIVAL" TaxNumber2=""/><Supplier SupplierNumber="9725" CorporateGroupID="US50" Name1="Smith, Andrew" Name2="" CountryCoded="DNK" Street="17 Wells St, Ste 201" VATRegistrationNumber="" FaxNumber="" StreetSupplement="" CountryName="USD" PaymentMethod="CHECK" Description="" TaxNumber1="" PaymentTerm="ON ARRIVAL" TaxNumber2=""/><Supplier SupplierNumber="9726" CorporateGroupID="US50" Name1="Perry, Denise L" Name2="" CountryCoded="DNK" Street="714 Breezy Hill Rd" VATRegistrationNumber="" FaxNumber="" StreetSupplement="" CountryName="USD" PaymentMethod="CHECK" Description="" TaxNumber1="" PaymentTerm="ON ARRIVAL" TaxNumber2=""/><Supplier SupplierNumber="9727" CorporateGroupID="US50" Name1="Mcglynn, Marsha" Name2="" CountryCoded="DNK" Street="333 Moonlight Dr" VATRegistrationNumber="" FaxNumber="" StreetSupplement="" CountryName="USD" PaymentMethod="CHECK" Description="" TaxNumber1="" PaymentTerm="ON ARRIVAL" TaxNumber2=""/><Supplier SupplierNumber="9728" CorporateGroupID="US50" Name1="DeJoy Karen" Name2="" CountryCoded="DNK" Street="2027 Dobie Lane" VATRegistrationNumber="" FaxNumber="" StreetSupplement="" CountryName="USD" PaymentMethod="CHECK" Description="" TaxNumber1="" PaymentTerm="ON ARRIVAL" TaxNumber2=""/><Supplier SupplierNumber="9729" CorporateGroupID="US50" Name1="Zeltner, Maggie" Name2="" CountryCoded="DNK" Street="9 Pond Point Dr" VATRegistrationNumber="" FaxNumber="" StreetSupplement="" CountryName="USD" PaymentMethod="CHECK" Description="" TaxNumber1="" PaymentTerm="ON ARRIVAL" TaxNumber2=""/><Supplier SupplierNumber="973" CorporateGroupID="CH30" Name1="Binggeli AG" Name2="" CountryCoded="DNK" Street="Dorf 25" VATRegistrationNumber="Z" FaxNumber="16 0.001.698.05" StreetSupplement="" CountryName="CHF" PaymentMethod="1" Description="" TaxNumber1="" PaymentTerm="30" TaxNumber2=""/><Supplier SupplierNumber="973" CorporateGroupID="US50" Name1="Ontario Audiology &amp; Hrng Aids" Name2="Attn: Jody Alexander" CountryCoded="DNK" Street="1159 Southwest 4th Avenue" VATRegistrationNumber="" FaxNumber="" StreetSupplement="" CountryName="USD" PaymentMethod="CHECK" Description="" TaxNumber1="" PaymentTerm="0" TaxNumber2=""/><Supplier SupplierNumber="9730" CorporateGroupID="US50" Name1="Forrester, Tracy" Name2="" CountryCoded="DNK" Street="475 Pleasant St" VATRegistrationNumber="" FaxNumber="" StreetSupplement="" CountryName="USD" PaymentMethod="CHECK" Description="" TaxNumber1="" PaymentTerm="ON ARRIVAL" TaxNumber2=""/><Supplier SupplierNumber="9731" CorporateGroupID="US50" Name1="Trees, Debra" Name2="" CountryCoded="DNK" Street="8 Ayre Drive" VATRegistrationNumber="" FaxNumber="" StreetSupplement="" CountryName="USD" PaymentMethod="CHECK" Description="" TaxNumber1="" PaymentTerm="ON ARRIVAL" TaxNumber2=""/><Supplier SupplierNumber="9732" CorporateGroupID="US50" Name1="Denis, Micheline" Name2="" CountryCoded="DNK" Street="1644 Brook Street Apt B1" VATRegistrationNumber="" FaxNumber="" StreetSupplement="" CountryName="USD" PaymentMethod="CHECK" Description="" TaxNumber1="" PaymentTerm="ON ARRIVAL" TaxNumber2=""/><Supplier SupplierNumber="9733" CorporateGroupID="US50" Name1="Yanagisawa, Kay" Name2="" CountryCoded="DNK" Street="248 Hemlock Hill Road" VATRegistrationNumber="" FaxNumber="" StreetSupplement="" CountryName="USD" PaymentMethod="CHECK" Description="" TaxNumber1="" PaymentTerm="ON ARRIVAL" TaxNumber2=""/><Supplier
+
+----- 
+
+----- End import
+
+************************************************************************************
+
+
